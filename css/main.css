@@ -1,0 +1,97 @@
+body{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background: url('../img/body-bg.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav{
+	background-color: #eeeeee;
+}
+
+.text-heading-upper{
+	font-size: 5rem;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.text-heading-lower{
+	font-size: 1.2rem;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+hr.divider{
+	max-width: 250px;
+	border-top: 2px solid rgba(0,0,0,1)
+}
+
+
+/*home*/
+.home{
+	margin: 25px 0;
+}
+
+.wondertea{
+	font-family: 'Ranchers', cursive;
+	font-size: 60px; 
+}
+
+/*about*/
+#about img{
+	height: 250px;
+	margin: auto;
+}
+
+#about p{
+	font-size: 22px;
+	font-weight: 350;
+}
+
+
+
+
+
+
+
+/*footer*/
+footer{
+	margin-top: 50px;
+}
+
+footer a{
+	color: black;
+	font-weight: 550;
+}
+
+footer a:hover{
+	text-decoration: none;
+}
+
+footer p{
+	margin-bottom: 0;
+}
+
+.footer-mid p{
+	display: inline-block;
+}
+
+.footer-mid i{
+	text-align: center;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	font-size: 35px;
+}
+
+.footer-mid table td{
+	padding: 4px;
+}
