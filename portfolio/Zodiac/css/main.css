@@ -1,0 +1,50 @@
+.row{
+	text-align: center;
+}
+
+body{
+	background: url(../img/BG.jpg) scroll;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-color: black;
+    font-family: 'Mogra', cursive;
+}
+
+h1,
+#strength,
+#weakness{
+	color: #caffb9;
+}
+
+h1{
+	font-size: 60px;
+	padding-top: 50px;
+}
+
+#strength,
+#weakness{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+#zodiac{
+	margin-top: 15px;
+}
+
+#check{
+	margin-top: 40px;
+	margin-bottom: 45px;
+	
+	line-height: 51px;
+	border-radius: 50%;
+}
+
+#zodiac_img{
+	margin-bottom: 20px;
+	border-radius: 50%;
+}
+
