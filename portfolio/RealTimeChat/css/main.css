@@ -1,0 +1,64 @@
+body{
+	font-family: 'HelveticaNeue-Light';
+	background-color: #c3e3ff;
+}
+
+h3{
+	margin-top: 37px;
+}
+
+.mainDiv{
+	display: flex;
+	justify-content: center;
+	max-width: 800px;
+	margin: 47px auto;
+	padding: 30px;
+	background-color: #ffffff;
+}
+
+#login{
+	text-align: center;
+}
+
+#login input{
+	/*display: inline-block;*/
+	margin:30px auto 10px;
+	width: 170px;
+	text-align: center;
+}
+
+#chat{
+	width: 70%;
+}
+
+#result{
+	height: 460px;
+	overflow: auto;
+	padding-bottom: 30px;
+}
+
+.msg:nth-of-type(2n) {
+	background-color: cornsilk;
+}
+
+.msg:nth-of-type(2n+1) {
+	background-color: aliceblue;
+}
+
+.msg p{
+	margin:5px 20px 14px;
+}
+
+.text-input{
+	margin-top: 20px;
+}
+
+#post{
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+#logoutBtn{
+	float: right;
+	margin-top: 20px;
+}
