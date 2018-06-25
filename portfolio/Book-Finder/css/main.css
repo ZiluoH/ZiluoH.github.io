@@ -1,0 +1,52 @@
+body{
+	background: #FDFFDF;
+}
+
+h4{
+	padding-top: 15px;
+}
+
+.container{
+	text-align: center;
+	background: #F3D7B5;
+	width: 75%;
+	margin-top: 35px;
+	min-height: 570px;
+	border-radius: 5px;
+}
+
+.searchSection{
+	margin-top: 40px;
+}
+
+#search{
+	font-size: 18px;
+	width: 100%;
+	max-width: 255px;
+}
+
+#button{
+	display: block;
+	margin: 5px auto;
+	width: 100%;
+	max-width: 255px;
+}
+
+#results{
+	margin-top: 70px;
+}
+
+.newBook{
+	height: 300px;
+	padding-top: 15px;
+	border-bottom: 1px solid grey;
+}
+
+.newBookImgClass{
+	padding-top: 20px;
+	float: right;
+}
+
+.btn-primary{
+	margin-top: 18px;
+}
