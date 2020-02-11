@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>2-11</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <script src="./main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
 </head>
 <body>
     <div class="main">
@@ -25,7 +29,9 @@
         </div>
         <div id="instruction">
             <p>Use your arrow keys to move blocks. When 2 blocks with the same number touch, they merge into one!</p>
-            <p>Or you can press this <i class="fas fa-redo-alt restart" onclick="board.restart();"></i> to reset the game.</p>
+            <br>
+            <p>You can click this <i class="fas fa-backspace" onclick="board.undo()"></i> or backspace to undo one move.</p>
+            <p>Or you can press this <i class="fas fa-redo-alt restart" onclick="board.restart()"></i> to reset the game.</p>
             
         </div>
         <div id="score-board">
