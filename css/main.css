@@ -154,19 +154,19 @@ a {
 .portfolio-group figcaption h3{
 	font-weight: 400;
 	color: #f3b204;
-	padding: 10px 20px;
+	padding: 0 20px;
 	margin-bottom: 0;
 	position: relative;
 	/*right: 100%;*/
-	margin-top: 25px;
+	margin-top: 15px;
 	font-size: 37px;
 	transition: all 0.9s ease;
 } 
 
 .portfolio-group figcaption p{
-	padding: 10px 20px;
+	padding: 2px 20px;
 	margin-bottom: 0;
-	margin-top: 10px;
+	margin-top: 5px;
 	position: relative;
 	left: 100%;
 	font-size: 13px;
@@ -181,7 +181,7 @@ a {
 	color: #fff;
 	border: 2px solid #fff;
 	padding: 4px 10px;
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .portfolio-group figcaption a:hover{
